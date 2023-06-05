@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.divHeader {
+  border-bottom: 1px solid #979797;
+}
+
+.logo {
+  width: 70px;
+}
+
+.logo-nome {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: 0.4s;
+}
+
+a:hover {
+  color: #AACD06;
+}
+
+@media (max-width: 380px) {
+  header {
+    justify-content: center;
+  }
+}

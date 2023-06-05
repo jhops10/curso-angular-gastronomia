@@ -1,0 +1,26 @@
+.food-card {
+  width: 320px;
+  border: 1px solid #979797;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 5%;
+}
+
+.food-card:hover {
+  border-color: #AACD06;
+}
+
+.imageCard {
+  width: 100%;
+ border-radius: 5%;
+}
+
+.food-information {
+  padding: 14px 20px;
+}
+
+.botao {
+  background-color: #AACD06;
+  color: #000000;
+  border: none;
+}
